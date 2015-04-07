@@ -1,0 +1,68 @@
+/*
+    To change this license header, choose License Headers in Project Properties.
+    To change this template file, choose Tools | Templates
+    and open the template in the editor.
+*/
+/* 
+    Created on : Apr 7, 2015, 10:03:27 AM
+    Author     : vanaraj
+*/
+
+$padding-top : 'png-top';
+
+$padding-bottom : 'png-btm';
+
+$margin-top : 'mgn-top';
+
+$margin-bottom : 'mgn-btm';
+
+$top : 'top';
+
+$bottom : 'btm';
+
+$font : 'fnt';
+
+// png-top = padding-top
+@for $i from 1 through 100 {
+        .#{$padding-top}#{$i} {
+            padding-top : #{$i}px;
+        }
+}
+
+@for $i from 1 through 100 {
+        .#{$padding-bottom}#{$i} {
+            padding-bottom : #{$i}px;
+        }
+}
+
+@for $i from 1 through 100 {
+        .#{$margin-top}#{$i} {
+            margin-top : #{$i}px;
+        }
+}
+
+@for $i from 1 through 100 {
+        .#{$margin-bottom}#{$i} {
+            margin-bottom : #{$i}px;
+        }
+}
+
+@for $i from 1 through 100 {
+        .#{$top}#{$i} {
+            top : #{$i}px;
+            position : relative;
+        }
+}
+
+@for $i from 1 through 100 {
+        .#{$bottom}#{$i} {
+            bottom : #{$i}px;
+            position : relative;
+        }
+}
+
+@for $i from 1 through 100 {
+        .#{$font}#{$i} {
+            font-size : #{$i}px;
+        }
+}
