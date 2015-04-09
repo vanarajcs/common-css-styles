@@ -16,7 +16,7 @@
 
 `` <p class="fnt-12">...</p> ``
 
-## Bower
+## Bower Support
 
 bower install common-css-styles --save
 
@@ -24,5 +24,5 @@ or
 
 "common-css-styles" : "*"
 
-## Sass
+## Sass Support
 @import "path-to-your-folder/_common-css-styles"
